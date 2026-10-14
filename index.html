@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Volunteer Form</title>
+</head>
+<body>
+  
+<h1>Volunteer Form</h1>
+
+<form method="post" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
+
+  <fieldset>
+    <legend>My Info</legend>
+
+    <label for="first_name">first name:</label>
+    <input type="text" id="first_name" name="first_name_field" size="100"><br>
+
+    <label for="last_name">last name:</label>
+    <input type="text" id="last_name" name="last_name_field" size="100"><br>
+
+    <label for="phone">phone:</label>
+    <input type="text" id="phone" name="phone_field" size="100"><br>
+
+    <label for="email">email:</label>
+    <input type="text" id="email" name="email_field" size="100"><br>
+
+    Gender:<br>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender_field" value="male">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender_field" value="female"><br>
+
+    <label for="age">Age:</label><br>
+    <select id="age" name="age_field">
+      <option value="under 18">under 18</option>
+      <option value="over 18">over 18</option>
+    </select>
+  </fieldset>
